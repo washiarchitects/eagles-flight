@@ -4,8 +4,13 @@ import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { createPageUrl } from "@/utils";
 import { TrendingUp, Home, LineChart, Star } from "lucide-react";
+<<<<<<< HEAD
+import ToggleSwitch from "../components/crypto/ToggleSwitch";
+import CurrencyDropdown from "../components/crypto/CurrencyDropdown";
+=======
 import ToggleSwitch from "./components/crypto/ToggleSwitch";
 import CurrencyDropdown from "./components/crypto/CurrencyDropdown";
+>>>>>>> 5e4847fb9635c6fbfbd4883fe2103792334b904d
 
 const navigationTabs = [
   { title: "Home", path: "Home", icon: Home },
