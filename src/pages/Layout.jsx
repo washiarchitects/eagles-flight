@@ -7,6 +7,7 @@ import { TrendingUp, Home, LineChart, Star } from "lucide-react";
 import ToggleSwitch from "../components/crypto/ToggleSwitch";
 import CurrencyDropdown from "../components/crypto/CurrencyDropdown";
 
+
 const navigationTabs = [
   { title: "Home", path: "Home", icon: Home },
   { title: "Chart", path: "Chart", icon: LineChart },
